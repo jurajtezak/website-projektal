@@ -1,0 +1,33 @@
+.box_forma {
+    margin: 0 auto;
+    width: 90%;
+    height: 70vh;
+    border: 1px solid red;
+}
+
+.kontaktforma_section {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.kontaktforma_section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.forma{
+    margin: 0 auto;
+    width: 60%;
+    height: 60vh;
+    background-color: #634f4f;
+    color: darkgray;
+    
+}
+ 
+.forma input textarea {
+    font-size: 20px;
+}

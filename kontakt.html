@@ -7,7 +7,7 @@
     <title>Juraj Tezak</title>
     <link rel="stylesheet" href="css/main.css" />
 
-    <link rel="stylesheet" href="css/kontakt.css" />
+    <link rel="stylesheet" href="css/obrazac.css" />
   </head>
   <body>
     <!-- header sa navigacijom -->
@@ -41,20 +41,15 @@
       </div>
     </section>
     <br />
-    <section class="box_za_formu">
-      <form class="kontakt_forma" action="https://formsubmit.co/juraj.tezak@gmail.com" method="POST">
-        <label for="name">Ime / naziv: </label>&nbsp
-        <input type="text" name="name" required size="20"/><br><br>
-        <label for="email">Email adresa:</label>&nbsp
-        <input type="email" name="email" required size="20"/><br><br>
-        <label for="tel">Broj telefona:</label>&nbsp
-        <input type="tel" name="telfon" id="tel" required size="20"/><br><br>
-        <label for="email">Vaša poruka:</label>
-        <br><br>
-        <textarea name="poruka" id="poruka" cols="50" rows="10" required></textarea><br>
-        <button class="forma_gumbi_s" type="submit">Pošaljite poruku</button>
-        
-      </form>
-    </section>
+    
+      <form class="forma" action="" method="post">
+        <label for="ime">Ime</label><br>
+        <input type="text" name="ime" id="ime" required size="20"><br>
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email" required size="20"><br>
+        <textarea name="poruka" id="poruka" rows="5"></textarea>
+
+     </form>
+    
   </body>
 </html>
