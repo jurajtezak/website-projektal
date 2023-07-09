@@ -1,0 +1,122 @@
+main {
+    margin: 0 auto;
+    width: 95%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 35px;
+
+}
+
+main h1 {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+main a {
+    border: 2px solid rgb(0, 106, 255);
+    background-color: rgb(0, 106, 255);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+main a:hover {
+    color: rgb(2, 76, 179);
+    background-color: rgb(252, 252, 252);
+}
+
+main .ja_slika {
+    width: 400px;
+}
+
+main .main-ljevo {
+    margin-right: 40px;
+}
+
+main .main-desno {
+    margin-left: 40px;
+}
+
+.sekcija_usluge {
+    max-width: 100vw;
+    padding: 60px 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sekcija_usluge .usluge_lijevo {
+    text-align: center;
+    max-width: 700px;
+
+    padding: 30px 30px;
+    margin-right: 40px;
+
+}
+
+.sekcija_usluge .usluge_desno {
+    text-align: center;
+    max-width: 700px;
+
+    padding: 30px 30px;
+    margin-left: 40px;
+}
+
+.sekcija_usluge .usluge_lijevo h3 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(2, 33, 96);
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 15px;
+
+}
+
+.sekcija_usluge .usluge_desno h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: rgb(2, 33, 96);
+    font-size: 32px;
+    margin-bottom: 15px;
+
+
+}
+
+.sekcija_usluge .usluge_desno p {
+    color: rgb(109, 109, 109);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 15px;
+    line-height: 30px;
+
+}
+
+.sekcija_usluge .usluge_lijevo p {
+    color: rgb(109, 109, 109);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 30px;
+    font-style: italic;
+
+}

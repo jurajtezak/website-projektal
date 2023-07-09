@@ -1,24 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juraj Tezak</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="css/kontakt.css" />
+  </head>
+  <body>
+    <!-- header sa navigacijom -->
+
     <header class="header">
-        <p class="logo">LO<span>GO</span></p>
-    <nav class="navigacija">
-    <ul class="linkovi">
-        <li><a href="#">NASLOVNA</a></li>
-        <li><a href="#">USLUGE</a></li>
-        <li><a href="#">GALERIJA</a></li>
-        <li><a href="#">O MENI</a></li>
-        <li><a href="#">KONTAKT</a></li>
-    </ul>
-</nav>
-</header>
-</body>
+      <p class="logo">LO<span class="logospan">GO</span></p>
+      <nav class="navigacija">
+        <ul class="linkovi">
+          <li><a href="index.html">NASLOVNA</a></li>
+          <li><a href="usluge.html">USLUGE</a></li>
+          <li><a href="galerija.html">GALERIJA</a></li>
+          <li><a href="omeni.html">O MENI</a></li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+        <p class="call">Tel. +385 099 7087 021</p>
+      </nav>
+    </header>
+    <!-- Glavni sadrzaj na kontakt stranici i forma-->
+    <section class="kontaktforma_section">
+      <br />
+      <br />
+      <div><h1 class="Kontakt_naslov">Kontakt Stranica</h1></div>
+      <hr />
+      <div>
+        <p>
+          Putem forme na ovoj stranici pošaljite mi svoje upite, ideje,
+          zahtjeve<br />
+          ili ako imate bilo kakva pitanja vezana uz dogovor ili narudžbu. Rado
+          ću odgovoriti.</p>
+          <br>
+      </div>
+    </section>
+    <br />
+    <section class="box_za_formu">
+      <form class="kontakt_forma" action="https://formsubmit.co/juraj.tezak@gmail.com" method="POST">
+        <label for="name">Ime / naziv: </label>&nbsp
+        <input type="text" name="name" required size="20"/><br><br>
+        <label for="email">Email adresa:</label>&nbsp
+        <input type="email" name="email" required size="20"/><br><br>
+        <label for="tel">Broj telefona:</label>&nbsp
+        <input type="tel" name="telfon" id="tel" required size="20"/><br><br>
+        <label for="email">Vaša poruka:</label>
+        <br><br>
+        <textarea name="poruka" id="poruka" cols="50" rows="10" required></textarea><br>
+        <button class="forma_gumbi_s" type="submit">Pošaljite poruku</button>
+        
+      </form>
+    </section>
+  </body>
 </html>
