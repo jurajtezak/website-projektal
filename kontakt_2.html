@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juraj Tezak</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap");
+    </style>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/kontakt_2.css" />
+  </head>
+  <body>
+    <!-- header sa navigacijom -->
+
+    <header class="header">
+      <p class="logo"><a href="index.html">LO<span class="logospan">GO</span></a></p>
+      <nav class="navigacija">
+        <ul class="linkovi">
+          <li><a href="index.html">NASLOVNA</a></li>
+          <li><a href="#graf_d">USLUGE</a></li>
+          <li><a href="galerija.html">GALERIJA</a></li>
+          <li><a href="omeni.html">O MENI</a></li>
+          <li><a href="kontakt_2.html">KONTAKT</a></li>
+        </ul>
+        <p class="call">Tel. +385 099 7087 021</p>
+      </nav>
+    </header>
+      <!-- Kontakt Forma -->
+      <section class="za_formu">
+        <h2>Javite se, pošaljite poruku ili nazovite</h2>
+        <hr>
+        <div>            
+            <p clas="na_kontakt2">
+              Putem kontakt forme na ovoj stranici pošaljite mi svoje upite, ideje,
+              zahtjeve ili ako imate bilo kakva pitanja vezana uz dogovor ili narudžbu. Rado
+              ću odgovoriti.</p>
+              <br>
+          </div>
+      </section>
+    <div class="container">
+        <form action="" method="post">
+            <label for="ime">Vaše Ime</label><br>
+            <input type="text" id="ime" required>
+            <br>
+            <label for="email">Email adresa</label><br>
+            <input type="email" name="email" id="email"  required><br>
+            <label for="tel">Telefonski broj (opcionalno)</label><br>
+            <input type="number" name="tel" id="tel" ><br>
+            <label for="poruka">Poruka</label><br>
+            <textarea rows="4" cols="30" rows="10" maxlength="400"></textarea>
+            <br>
+            <button class="gumb_posalji" type="submit" value="Pošalji poruku">POŠALJI</button>
+            <button class="gumb_reset" type="reset" value="Obriši">OBRIŠI</button>
+        </form>
+    </div>
+
+      
+   
+  </body>
+</html>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juraj Tezak</title>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300;700&display=swap");
     </style>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/index.css" />
@@ -15,64 +15,78 @@
     <!-- header sa navigacijom -->
 
     <header class="header">
-      <p class="logo">LO<span class="logospan">GO</span></p>
+      
       <nav class="navigacija">
         <ul class="linkovi">
           <li><a href="index.html">NASLOVNA</a></li>
-          <li><a href="usluge.html">USLUGE</a></li>
-          <li><a href="galerija.html">GALERIJA</a></li>
+          <li><a href="#graf_d">USLUGE</a></li>
+          <li><a href="galerija.html">RADOVI</a></li>
           <li><a href="omeni.html">O MENI</a></li>
-          <li><a href="kontakt.html">KONTAKT</a></li>
+          <li><a href="kontakt_2.html">KONTAKT</a></li>
         </ul>
-        <p class="call">Tel. +385 099 7087 021</p>
+        <p class="call"><a href="Tel:+385997087021">Tel. +385 099 7087 021</a></p>
+        <p class="logo"><a href="index.html">LO<span class="logospan">GO</span></a></p>
       </nav>
     </header>
     <!-- Glavni sadrzaj na index stranici -->
-    <main>
+    <main class="main_index">
       <div class="main-ljevo">
         <h1>
-          Dobro <br />
-          došli na moj<br />
-          website
+          Dobro došli, <br> ime mi je Juraj!
         </h1>
+        <div class="strela"><a href="#saznajte"><img src="images/arrow-1mb.gif" alt="Srelica_za_dole" width="80px"></a></div>
         <div>
           <br />
+          <h2 class="ja_sam">Ja sam Grafički i WEB dizajner</h2>
           <p>
-            Više od dvadeset godina u dizajnu<br />
+            S više od dvadeset godina u industriji dizajna<br />
             razvijam brendove za male i velike tvrtke. <br />U suradnji sa vama
-            i prema vašim željama<br />
-            donosim kreativna i personalizirana rješenja <br />izgrađena na na
+            i prema vašim željama<br />donosim kreativna rješenja izgrađena <br> na
             originalnim i idejama<br />
           </p>
           <br />
-          <a href="kontakt.html">KONTAKT</a>
+          <a href="kontakt_2.html" class="gumb_na_kontakt">KONTAKT</a>
         </div>
       </div>
 
       <div class="main-desno">
         <img class="ja_slika" src="images/ja222.png" alt="Juraj Težak" />
-      </div>
+        
+      </div>      
     </main>
     <!--Sekcija usluge-->
     <section class="sekcija_usluge">
       <div class="usluge_lijevo">
-        <h3>Usluge Grafičkog Dizajna</h3>
+        <h3 id="graf_d">Usluge Grafičkog Dizajna</h3>
         <hr />
         <p>
           Grafički dizajn nije samo uljepšavanje ili uređivanje već kompletno
-          rješenje pripreme za tisak, a na temelju vizualnih komunikacija koje
-          ističem u dogovoru s vama.
-        </p>
+          rješenje vašeg brenda, a sve to na temelju vizualnih komunikacija koje
+          ističem u kreiranju vašeg vizuala.
+        </p><br>
+        <p id="saznajte">saznajte više...</p>
       </div>
       <div class="usluge_desno">
-        <h3>Usluge WEB Dizajna</h3>
+        <h3 id="graf_w">Usluge Website Dizajna</h3>
         <hr />
         <p>
-          Web dizajn nije samo uljepšavanje ili uređivanje, već kompletno web
-          rješenje vaših stranica na internetu izrađene da služe za komunikaciju
+          Danas u svijetu koji se brzo mijenja, svaka tvrtka želi biti digitalno prisutna. Nudim Web dizajn kao, kompletno web rješenje koje služi za lakšu komunikaciju
           s vašim klijentima.
-        </p>
+        </p><br>
+        <p id="saznajte">saznajte više...</p>
       </div>
+
+      <div class="usluge_sredina">
+        <h3 id="graf_b">Brending dizajn <br> i usluge</h3>
+        <hr />
+        <p>
+          Identitet brenda važan je za tvrtke svih veličina, prepoznatljiv trenutno. Stvaram cijeli brand, od logotipa, palete boja, tipografije sve kako bismo osigurali da je cijeli sustav unificiran.
+        </p><br>
+        <p id="saznajte">saznajte više...</p>
+      </div>
+    </section>
+    <section class="tvrtke">
+
     </section>
   </body>
 </html>

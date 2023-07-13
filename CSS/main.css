@@ -2,18 +2,27 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body {
-    background-image: linear-gradient(to left,rgba(3, 64, 94, 0.7),rgba(11, 12, 11, 0.5)), url(../images/2-bgtex.jpg);
+    background-image: linear-gradient(to bottom, rgba(1, 17, 26, 0.8), rgba(11, 12, 11, 0.8)), url(../images/2-bgtex.jpg);
+    background-color: black;
     background-size: cover;
     z-index: -100;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .navigacija {
     width: 100%;
     height: 60px;
-    background-color:rgba(0, 0, 0, 0.274);
+    background-color: rgb(0, 0, 0);
     border-bottom: 1px solid #575757;
     position: relative;
 }
@@ -29,17 +38,27 @@ ul li {
     display: inline-block;
     list-style: none;
     padding: 25px 20px;
-    
+
+
 }
 
 ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.0em;
+    font-weight: 500;
+
+    transition: 0.3s;
+
+
+
 }
 
 ul li a:hover {
-    color: rgb(0, 170, 255);
+    color: rgb(79, 152, 255);
+
+
+
 }
 
 .call {
@@ -49,18 +68,37 @@ ul li a:hover {
     color: #fff;
 }
 
+.call a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.call a:hover {
+    text-decoration: none;
+    color: #e9cf05;
+}
+
 .logo {
+    position: fixed;
+    top: 0;
     margin-left: 45px;
     font-size: 2.0em;
     font-weight: bold;
     color: #fff;
     float: left;
     padding-top: 15px;
+    z-index: 100;
 }
+
 
 .logospan {
     color: rgb(0, 106, 255);
-    
+    z-index: 100;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .main-ljevo {

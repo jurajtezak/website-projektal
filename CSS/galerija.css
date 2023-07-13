@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(1, 17, 26, 0.8), rgba(11, 12, 11, 0.8)), url(../images/2-bgtex.jpg);
+    background-color: black;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+.main_radovi {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.moji {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 36px;
+}
+
+
+.moji-p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 1.85px;
+}
+
+.logo_kontenjer {
+    margin-top: 100px;
+    background-color: #fff;
+    max-width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos-1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/logici/adv.jpg);
+    background-size: cover;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.logos-2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/logici/box.jpg);
+    background-size: cover;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.logos-3 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/logici/charm.jpg);
+    background-size: cover;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.logos-5 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/logici/cloud.jpg);
+    background-size: cover;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.logos-5 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/logici/kbc.jpg);
+    background-size: cover;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.logos-6 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/logici/oko.jpg);
+    background-size: cover;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.logos-7 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/logici/quadrant.jpg);
+    background-size: cover;
+
+    width: 250px;
+    height: 250px;
+
+}
