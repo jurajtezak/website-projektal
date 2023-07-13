@@ -75,8 +75,8 @@
 }
 
 .sekcija_usluge {
-    max-width: 90%;
-    padding: 40px 100px;
+    max-width: 100%;
+    padding: 40px 50px;
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;

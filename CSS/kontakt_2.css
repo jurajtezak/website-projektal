@@ -1,7 +1,7 @@
 .za_formu,
 h2 {
     margin-top: 90px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
     color: #fff;
 
@@ -9,10 +9,10 @@ h2 {
 
 .za_formu p {
     margin: 0 auto;
-    width: 450px;
+    width: 650px;
     margin-top: 20px;
     line-height: 1.6em;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 
@@ -37,6 +37,7 @@ h2 {
     text-align: center;
     align-items: center;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 input,
