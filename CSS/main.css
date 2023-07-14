@@ -55,7 +55,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: rgb(79, 152, 255);
+    color: orange;
 
 
 
@@ -75,7 +75,7 @@ ul li a:hover {
 
 .call a:hover {
     text-decoration: none;
-    color: #e9cf05;
+    color: orange;
 }
 
 .logo {
@@ -92,7 +92,7 @@ ul li a:hover {
 
 
 .logospan {
-    color: #7f7f7f;
+    color: orange;
     z-index: 100;
 }
 

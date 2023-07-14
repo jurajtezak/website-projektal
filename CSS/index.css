@@ -1,7 +1,7 @@
 .main_index {
     margin: 0 auto;
     width: 95%;
-    height: 90vh;
+    height: 95vh;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     font-family: 'Poppins', sans-serif;
     text-align: left;
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.7em;
     margin-bottom: 30px;
 
 }
@@ -27,7 +27,7 @@
     color: rgb(215, 215, 215);
     font-size: 2.0em;
     font-weight: 100;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .strela {
@@ -40,26 +40,26 @@
 .main_index h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 4em;
+    font-size: 4.2em;
     line-height: 1.1em;
 
 }
 
 .main_index .gumb_na_kontakt {
-    border: 1px solid rgb(130, 130, 130);
 
+    border: 1px solid rgb(130, 130, 130);
     color: #fff;
     font-size: 1.25em;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
     padding: 16px 38px;
-    transition: 0.4s ease-in;
+
+
 }
 
 .main_index .gumb_na_kontakt:hover {
-    color: black;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid orange;
 }
 
 
