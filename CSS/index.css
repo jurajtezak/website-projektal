@@ -14,15 +14,18 @@
 
 .main_index p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.3em;
+    text-align: left;
+    font-size: 1.2em;
     line-height: 1.5em;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 
 }
 
 .ja_sam {
-    color: rgb(72, 148, 255);
-    font-size: 2.0em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 215, 215);
+    font-size: 2.2em;
+    font-weight: 100;
     margin-bottom: 15px;
 }
 
@@ -34,24 +37,28 @@
 }
 
 .main_index h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 4em;
-    line-height: 1.2em;
+    line-height: 1.1em;
+    margin-bottom: 10px;
 }
 
 .main_index .gumb_na_kontakt {
-    background-color: rgb(14, 101, 223);
+    border: 1px solid rgb(130, 130, 130);
+
     color: #fff;
     font-size: 1.25em;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
-    border-radius: 8px;
-    padding: 10px 30px;
+    padding: 16px 38px;
+    transition: 0.4s ease-in;
 }
 
 .main_index .gumb_na_kontakt:hover {
-
-    background-color: rgb(7, 68, 155);
+    color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .main_index .ja_slika {
