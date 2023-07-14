@@ -105,8 +105,7 @@
     text-align: justify;
     max-width: 400px;
     max-height: 600px;
-    background-color: rgb(3, 152, 63);
-    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
     padding: 20px 30px;
     margin-right: 40px;
 
@@ -116,8 +115,7 @@
     text-align: justify;
     max-width: 400px;
     max-height: 600px;
-    background-color: rgb(170, 4, 211);
-    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
     padding: 20px 30px;
     margin-right: 40px;
 }
@@ -185,8 +183,7 @@
     text-align: justify;
     max-width: 400px;
     max-height: 600px;
-    background-color: rgb(249, 66, 5);
-    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
     padding: 20px 30px;
     margin-right: 40px;
 }
@@ -195,4 +192,9 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-weight: bold;
+}
+
+#saznajte:hover {
+    color: orange;
+
 }
