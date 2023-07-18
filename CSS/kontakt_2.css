@@ -27,10 +27,10 @@ h2 {
 .container {
     margin: auto;
     color: #fff;
-    width: 20em;
+    width: 25em;
     height: auto;
     /* background-image: linear-gradient(rgba(157, 156, 156, 0.5), rgba(72, 72, 72, 0.314)); */
-    border: #fff 1px solid;
+    border: #ef8a06 1px solid;
     display: flex;
     justify-content: center;
     padding: 2em 2em;
@@ -40,10 +40,10 @@ h2 {
     margin-top: 2em;
 }
 
-input,
+input,  
 label,
 textarea {
-    max-width: 25em;
+    min-width: 18em;
     margin-top: 0.87em;
     margin-bottom: 0.87em;
     font-size: 1.12em;
@@ -68,6 +68,7 @@ input {
     letter-spacing: 1px;
     background-color: black;
     padding: 10px 30px;
+    transition: 0.3s;
 }
 
 .gumb_posalji:hover {
@@ -85,6 +86,7 @@ input {
     letter-spacing: 1px;
     background-color: black;
     padding: 10px 30px;
+    transition: 0.3s;
 }
 
 .gumb_reset:hover {
